@@ -1,0 +1,272 @@
+:root{
+	--primary:#3DCFD3;
+	--dark:#161616;
+	--pure:#FFFFFF;
+	--ternary:#898989;
+	--light:#F2F2F2;
+
+}
+body{
+	background-color: linen;	
+	/*font-family: 'Brush Script MT', cursive;*/
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.container{
+
+	background-color: linen;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 120%;
+	
+}
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.contact{
+	padding-left: 20px;
+}
+
+.container .nav{
+	color: white;
+	background-color: black;
+}
+.container .nav .left{
+	color: white;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-bottom: 15px
+}
+.left a{
+	color: #008B8B;
+	text-decoration: none;
+}
+.left a:hover{
+	color: var(--pure);
+	cursor: pointer;
+}
+
+.play .title{
+	display: block;
+}
+.title h1{
+	padding-top: 200px;
+	text-align: center;
+	font-size: 4rem;
+}
+.title p{
+	text-align: center;
+	font-size: 1rem;
+}
+.playb button{
+	padding: 5px 30px 5px 30px;
+	background-color: linen;
+	border: ridge;
+	border-color: black;
+
+}
+.playb button:hover{
+	padding: 5px 30px 5px 30px;
+	background-color: linen;
+	
+	color: var(--primary);
+	cursor: pointer;
+}
+.submit{
+	padding-top: 10px;
+	text-align: center;
+	padding-bottom: 150px;
+}
+.submit button{
+	padding: 5px 30px 5px 30px;
+	background-color: linen;
+	border: ridge;
+	border-color: black;
+}
+.submit button:hover{
+	padding: 5px 30px 5px 30px;
+	background-color: linen;
+	
+	color: var(--primary);
+	cursor: pointer;
+}
+
+.image img{
+	padding-left: 450px;
+}
+.playb{
+	padding-top: 20px;
+	text-align: center;
+	padding-bottom: 180px;
+}
+.ans{
+	padding-left: 500px;
+}
+.ans input{
+	width: 60%;
+}
+
+.final{
+	display: block;
+}
+.final h1{
+	padding-top: 200px;
+	text-align: center;
+	font-size: 4rem;
+}
+.final h2{
+	text-align: center;
+}
+.final p{
+	text-align: center;
+	font-size: 1rem;
+}
+
+.again button{
+	padding: 5px 30px 5px 30px;
+	background-color: linen;
+	border: ridge;
+	border-color: black;
+
+}
+.again button:hover{
+	padding: 5px 30px 5px 30px;
+	background-color: linen;
+	
+	color: var(--primary);
+	cursor: pointer;
+}
+.again{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 100px;
+}
+.again button a{
+	color: var(--black);
+	text-decoration: none;
+}
+.again button a:hover{
+	color: var(--primary);
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+.bottom
+{
+	margin-top: 100px;
+	background-color: var(--dark);
+	margin-bottom: 0px;
+	
+	
+}
+.bottom .footer
+{
+	color:#008B8B;
+	font-family: 'Montserrat', sans-serif;
+	align-items: center;
+	margin-left: 630px;
+	text-decoration: none; 
+}
+.bottom .footer-link
+{
+	color:#008B8B;
+	/*font-family: 'Montserrat', sans-serif;*/
+	margin-left: 50px;
+	text-decoration: none; 
+}
+
+.bottom a:hover
+{
+	color: var(--pure);
+}
+/*.bottom .india{
+	margin-left: 650px;
+	color:#008B8B;
+	align-items: center;
+	padding-top: 5px;
+	padding-bottom:40px;	
+}*/
+.bottom .end{
+	margin-left: 630px;
+	color:#008B8B;
+	align-items: center;
+	padding-top: 5px;
+	padding-bottom:40px;	
+
+}
+.bottom .class
+{
+	margin-left: 560px;
+	color:#008B8B;
+	align-items: center;
+	padding-top: 5px;
+	padding-bottom:40px;
+	/*padding-top: 40px */
+}
+
+.bottom .empty{
+	padding-top: 40px;
+}
+@media (max-width: 480px){
+	.bottom .footer {
+	    color: #008B8B;
+	    font-family: 'Montserrat', sans-serif;
+	    align-items: center;
+	    margin-left: 36px;
+	    text-decoration: none;
+	}
+	.bottom .end {
+	    margin-left: 55px;
+	    color: #008B8B;
+	    align-items: center;
+	    padding-top: 5px;
+	    padding-bottom: 40px;
+	}
+	.image img {
+	    padding-left: 45px;
+	    height: 300px;
+	    width: 300px;
+	}
+	.ans {
+	    padding-left: 38px;
+	}
+	.ans input{
+		width: 90%;
+	}
+	.final h1 {
+	    padding-top: 310px;
+	    text-align: center;
+	    font-size: 1rem;
+	}
+	.final h2 {
+	    text-align: center;
+	    font-size: 1rem;
+	}
+	.final p {
+	    text-align: center;
+	    font-size: 0.8rem;
+	}
+	.title h1 {
+	    padding-top: 200px;
+	    text-align: center;
+	    font-size: 2rem;
+	}
+	.title p {
+	    text-align: center;
+	    font-size: 0.8rem;
+	}
+	.bottom .empty {
+	    padding-top: 60px;
+	}
+
+}
